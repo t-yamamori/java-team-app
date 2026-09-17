@@ -4,12 +4,8 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class KanaiService {
-	
 
-	public class TanakaService {
-	    public String getProfile() {
-	        return "メンバーの田中です！趣味は趣味はドライブです。";
-	    }
+	public String getProfile() {
+		return "メンバーの金井です！趣味は小旅行です。";
 	}
-
 }
